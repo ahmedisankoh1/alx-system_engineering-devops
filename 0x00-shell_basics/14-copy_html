@@ -1,0 +1,2 @@
+#!/bn/bash
+cp -un *.html ../
