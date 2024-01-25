@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# prints a string 10 times using while loop and on the ninth iteration it prints hi
+
+i=0
+
+while [ "$i" -lt 10 ]; do
+  echo "Best School"
+  
+  # if statement to print Hi when i is 9
+  if [ "$i" -eq 8 ]; then
+    echo "Hi"
+  fi
+
+  ((i++))
+done
