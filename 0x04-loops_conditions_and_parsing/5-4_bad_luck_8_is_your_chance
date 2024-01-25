@@ -11,7 +11,7 @@ while [ "$i" -lt 11 ]; do
   elif [ "$i" -eq 8 ]; then
     echo "good luck"
   else
-    iecho "Best School"
+    echo "Best School"
   fi
 
   ((i++))
