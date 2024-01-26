@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays the PID along with the process name, of processes with the word "bash".
+
+pgrep bash -l
